@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #dedbd8;
+  }
+  
+  table {
+    width: 70%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #009ddc;
+    background-color: #fff;
+  }
+  
+  th {
+    background-color: #009ddc;
+    color: #fff;
+  }
+  
+  .remove-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .toggle-read-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  #new-book-btn,
+  input[type="submit"] {
+    background-color: #009ddc;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  button:hover {
+    filter: brightness(85%);
+  }
+  
+  input[type="submit"]:active,
+  button:active {
+    transform: scale(1.05);
+  }
+  
+  .book-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+#book-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  #new-book-form {
+    max-width: 300px; /* Limit the width of the form */
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  #book-list {
+    border: 1px solid #009ddc;
+    border-radius: 4px;
+  }
+  
+  h2 {
+    margin-bottom: 10px; /* Space below the heading */
+  }
+  
+  label {
+    display: block; /* Arrange labels and inputs on separate lines */
+    margin-bottom: 5px; /* Space between labels and inputs */
+    margin-top: 10px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #2d2a32;
+    color: #dedbd8;
+  }
+  
+  
